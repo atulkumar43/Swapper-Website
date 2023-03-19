@@ -324,6 +324,90 @@ span {
    color: rgba(18, 18, 18, 1);
    font-weight: bold;
    font-family: 'gilroy', sans-serif;
+   font-size: 1.0rem;
+}
+.box2 p {
+   color: rgba(18, 18, 18, 1);
+   font-weight: bold;
+   font-family: 'gilroy', sans-serif;
+   font-size: 1.0rem;
+}
+.box3 p {
+   color: rgba(238, 238, 238, 1);
+   font-weight: bold;
+   font-family: 'gilroy', sans-serif;
+   font-size: 1.0rem;
+}
+.box4 p {
+   color: rgba(18, 18, 18, 1);
+   font-weight: bold;
+   font-family: 'gilroy', sans-serif;
+   font-size: 1.0rem;
+}
+@media(min-width : 768px) {
+   .stats {
+      margin-top: 50px;
+      font-size: 1rem;
+      padding: 80px;
+      line-height: 32px;
+   }
+   .stats .box1 {
+      margin-left: -20px;
+   }
+   .stats .box2 {
+      margin-top: -80px;
+      margin-left: 325px;
+   }
+   .stats .box3 {
+      margin-left: -20px;
+   }
+   .stats .box4 {
+      margin-top: -80px;
+      margin-left: 325px;
+   }
+}
+@media(min-width : 1000px) {
+   .stats {
+      font-size: 1.2rem;
+      padding: 150px;
+      line-height: 38px;
+      margin-top: -20px;
+   }
+   .stats .box1 {
+   margin-top: 40px;
+   width: 380px;
+   height: 100px;
+   margin-left: -65px;
+   }
+   .box1 p {
+      font-size: 1.3rem;
+   }
+   .stats .box2 {
+      width: 380px;
+      height: 100px;
+      margin-left: 400px;
+      margin-top: -100px;
+   }
+   .box2 p {
+      font-size: 1.3rem;
+   }
+   .stats .box3 {
+      width: 380px;
+      height: 100px;
+      margin-left: -65px;
+   }
+   .box3 p {
+      font-size: 1.3rem;
+   }
+   .stats .box4 {
+      width: 380px;
+      height: 100px;
+      margin-left: 400px;
+      margin-top: -100px;
+   }
+   .box4 p {
+      font-size: 1.3rem;
+   }
 }
 #container {
    width: 200px;
