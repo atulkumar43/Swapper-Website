@@ -409,7 +409,100 @@ span {
       font-size: 1.3rem;
    }
 }
-#container {
+@media(min-width : 1200px) {
+   .stats {
+      margin-top: -80px;
+      padding: 350px;
+   }
+   .stats .box1 {
+      margin-left: -70px;
+   }
+   .stats .box2 {
+      margin-left: 470px;
+   }
+   .stats .box3 {
+      margin-left: -70px;
+   }
+   .stats .box4 {
+      margin-left: 470px;
+   }
+}
+.container1 {
+   width: 301px;
+   height: 380px;
+   background-color: transparent;
+   border: 3px solid rgba(197, 242, 119, 1);
+   border-radius: 20px;
+   margin-top: 100px;
+   margin-left: 27px;
+}
+.container1 h1 {
+   color: rgba(238, 238, 238, 1);
+   font-family: 'gilroy', sans-serif;
+   margin-top: -60px;
+   margin-left: -50px;
+   padding: 80px;
+}
+span {
+   color: rgba(197, 242, 119, 1);
+}
+.container1 p {
+   margin-top: -90px;
+   color: rgba(238, 238, 238, 1);
+   font-family: 'gilroy', sans-serif;
+   padding: 30px;
+   font-size: 1rem;
+   line-height: 23px;
+}
+.container2 {
+   width: 301px;
+   height: 310px;
+   background-color: transparent;
+   border: 3px solid rgba(197, 242, 119, 1);
+   border-radius: 20px;
+   margin-top: 30px;
+   margin-left: 27px;
+}
+.container2 h1 {
+   color: rgba(238, 238, 238, 1);
+   font-family: 'gilroy', sans-serif;
+   margin-top: -20px;
+   margin-left: -10px;
+   padding: 40px;
+}
+.container2 p {
+   margin-top: -50px;
+   color: rgba(238, 238, 238, 1);
+   font-family: 'gilroy', sans-serif;
+   padding: 30px;
+   font-size: 1rem;
+   line-height: 23px;
+}
+.container3 {
+   width: 301px;
+   height: 445px;
+   background-color: transparent;
+   border: 3px solid rgba(197, 242, 119, 1);
+   border-radius: 20px;
+   margin-top: 30px;
+   margin-left: 27px;
+}
+.container3 h1 {
+   color: rgba(238, 238, 238, 1);
+   font-family: 'gilroy', sans-serif;
+   margin-top: -60px;
+   margin-left: -50px;
+   padding: 80px;
+}
+.container3 p {
+   margin-top: -90px;
+   color: rgba(238, 238, 238, 1);
+   font-family: 'gilroy', sans-serif;
+   padding: 30px;
+   font-size: 1rem;
+   line-height: 23px;
+}
+#circle {
    width: 200px;
    height: 200px;
    background-color: red;
