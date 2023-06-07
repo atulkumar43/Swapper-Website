@@ -100,12 +100,10 @@ nav a:hover {
    header h1 {
       left: 83px;
    }
-
    header button {
       right: 83px;
       width: 170px;
    }
-
    header button:hover {
       border: 3px solid rgba(238, 238, 238, 1);
    }
@@ -116,10 +114,20 @@ nav a:hover {
    text-align: center;
    padding: 45px;
    font-family: 'Gilroy', sans-serif;
-   font-size: 18px;
-   line-height: 29px;
+   font-size: 27px;
+   line-height: 39px;
    font-weight: 500;
    margin-top: 80px;
+}
+#txt2 {
+   color: rgb(194, 194, 194);
+   text-align: center;
+   padding: 65px;
+   font-family: 'Gilroy', sans-serif;
+   font-size: 14px;
+   line-height: 19px;
+   /* font-weight: 100; */
+   margin-top: -100px;
 }
 span {
    color: rgba(197, 242, 119, 1);
@@ -133,13 +141,13 @@ span {
    left: 0;
    margin: auto;
    
-   width :34px;
-   height: 55px;
+   width :24px;
+   height: 35px;
  }
  .mousey {
-   width: 3px;
+   width: 1px;
    padding: 10px 15px;
-   height: 35px;
+   height: 30px;
    border: 2px solid #fff;
    border-radius: 25px;
    opacity: 0.75;
@@ -162,10 +170,16 @@ span {
  }
 @media (min-width : 768px) {
    #txt1 {
-      padding: 110px;
+      padding: 180px;
+      font-size: 42px;
+      margin-top: -70px;
+      line-height: 52px;
+   }
+   #txt2 {
+      padding: 180px;
       font-size: 22px;
-      margin-top: 40px;
-      line-height: 32px;
+      margin-top: -90px;
+      line-height: 52px;
    }
 }
 
@@ -182,7 +196,7 @@ span {
    #txt1 {
       font-size: 32px;
       line-height: 52px;
-      padding: 340px;
+      padding: 250px;
       margin-top: -130px;
    }
 }
